@@ -1,0 +1,72 @@
+.tarjeta-ventas {
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.tarjeta-ventas .card-header h4 {
+  color: #212121 !important; /* Texto negro oscuro */
+}
+
+.input-busqueda {
+  border-radius: 8px 0 0 8px;
+  border: 2px solid #e0e0e0;
+  padding: 12px 20px;
+}
+
+.input-busqueda:focus {
+  border-color: #d32f2f;
+  box-shadow: 0 0 0 0.25rem rgba(211, 47, 47, 0.25);
+}
+
+/* Botón Buscar en Rojo */
+.btn-buscar {
+  border-radius: 0 8px 8px 0;
+  padding: 0 30px;
+  font-weight: 600;
+  background-color: #d32f2f;
+  border-color: #d32f2f;
+  color: white;
+}
+
+.btn-buscar:hover {
+  background-color: #b71c1c;
+  border-color: #b71c1c;
+}
+
+.tabla-custom th {
+  background-color: #f5f5f5;
+  color: #212121;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #212121;
+}
+
+/* Botón Cobrar en Negro */
+.btn-cobrar {
+  border-radius: 8px;
+  font-weight: bold;
+  background-color: #212121;
+  border-color: #212121;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn-cobrar:hover {
+  transform: translateY(-2px);
+  background-color: #000000;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.resumen-venta {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.resumen-venta h2 {
+  color: #d32f2f !important; /* Total en rojo */
+}

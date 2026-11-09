@@ -1,0 +1,47 @@
+.tarjeta-inventario {
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.tarjeta-inventario .card-header h4 {
+  color: #212121 !important;
+}
+
+.fila-inventario {
+  transition: all 0.2s ease;
+}
+
+.fila-inventario:hover {
+  background-color: #fafafa;
+  box-shadow: inset 4px 0 0 #d32f2f;
+}
+
+.tarjeta-inventario thead {
+  background-color: #212121 !important;
+}
+
+.tarjeta-inventario thead th {
+  color: #ffffff !important;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: none;
+}
+
+.estado-badge {
+  padding: 6px 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 4px !important;
+}
+
+.estado-badge.bg-danger {
+  background-color: #d32f2f !important;
+}
+
+.estado-badge.bg-success {
+  background-color: #212121 !important; /* Óptimo en negro */
+  color: white;
+}

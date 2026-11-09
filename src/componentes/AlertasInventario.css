@@ -1,0 +1,39 @@
+.tarjeta-alertas {
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  border-top: 5px solid #d32f2f !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.tarjeta-alertas .card-title {
+  color: #212121 !important; /* Título en negro */
+}
+
+.alerta-item {
+  transition: all 0.2s ease;
+  border-left: 4px solid transparent;
+  margin-bottom: 8px;
+  border-radius: 6px !important;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.alerta-item:hover {
+  background-color: #fafafa;
+  border-left: 4px solid #d32f2f;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.badge-pulsante {
+  background-color: #d32f2f !important;
+  animation: pulso-rojo 2s infinite;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+}
+
+@keyframes pulso-rojo {
+  0% { box-shadow: 0 0 0 0 rgba(211, 47, 47, 0.4); }
+  70% { box-shadow: 0 0 0 8px rgba(211, 47, 47, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(211, 47, 47, 0); }
+}
